@@ -1,0 +1,21 @@
+{
+  "name": "node-blog",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-plugin-node": "^8.0.0",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
